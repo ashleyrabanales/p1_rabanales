@@ -13,8 +13,10 @@
 - [x] Complete a review of 2-3 different data visualizations used to answer specific questions. Some fun websites are [pudding.cool](https://pudding.cool/), wonkblog, [fivethiryeight](https://fivethirtyeight.com/), and [priceonomics](https://priceonomics.com/) (but you can use any website, blog, or article with a good visualization).
  
  •	Does living in a black neighborhood has a high insurance than a predominantly white neighborhood? By using a scatterplot, I can see a weak positive correlation that can signify the correlation between prices from renters and black residents' policies that cost more than the average. Another visualization between average percentage insurance and percentage city that is black demonstrates a significantly lower correlation by using the top ten insurance in California. Another visual is a bar chart illustrating, the insurance Goodcover doesn't have much of a difference with both neighborhoods. This can also be extraneous factors that could influence the correlation such as risks of invasion, fire, or liability. The visualizations can further explain the study and to determine if there were correlation or not. It demonstrate a further explanation about housing insurance.
-o	https://priceonomics.com/is-insurance-more-expensive-in-black-neighborhoods/
-•	The frustration of shopping for woman's clothes are controversial. By being held too small to knitted pockets or being pleased with have pockets in a dress or pants. While men's pockets are so deep and spacious. The study presented a comparison of pockets between men and women by demonstrating an illustration by each scroll down with addition to facts, color, and size. There is a significant difference in size and brands for both genders.
+	https://priceonomics.com/is-insurance-more-expensive-in-black-neighborhoods/
+
+
+The frustration of shopping for woman's clothes are controversial. By being held too small to knitted pockets or being pleased with have pockets in a dress or pants. While men's pockets are so deep and spacious. The study presented a comparison of pockets between men and women by demonstrating an illustration by each scroll down with addition to facts, color, and size. There is a significant difference in size and brands for both genders.
 o	https://pudding.cool/2018/08/pockets/
 
 
