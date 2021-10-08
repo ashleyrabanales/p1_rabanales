@@ -10,34 +10,43 @@
 
 ### Visualization review
 
-- [ ] Complete a review of 2-3 different data visualizations used to answer specific questions. Some fun websites are [pudding.cool](https://pudding.cool/), wonkblog, [fivethiryeight](https://fivethirtyeight.com/), and [priceonomics](https://priceonomics.com/) (but you can use any website, blog, or article with a good visualization).
+- [x] Complete a review of 2-3 different data visualizations used to answer specific questions. Some fun websites are [pudding.cool](https://pudding.cool/), wonkblog, [fivethiryeight](https://fivethirtyeight.com/), and [priceonomics](https://priceonomics.com/) (but you can use any website, blog, or article with a good visualization).
+ 
+ •	Does living in a black neighborhood has a high insurance than a predominantly white neighborhood? By using a scatterplot, I can see a weak positive correlation that can signify the correlation between prices from renters and black residents' policies that cost more than the average. Another visualization between average percentage insurance and percentage city that is black demonstrates a significantly lower correlation by using the top ten insurance in California. Another visual is a bar chart illustrating, the insurance Goodcover doesn't have much of a difference with both neighborhoods. This can also be extraneous factors that could influence the correlation such as risks of invasion, fire, or liability. The visualizations can further explain the study and to determine if there were correlation or not. It demonstrate a further explanation about housing insurance.
+o	https://priceonomics.com/is-insurance-more-expensive-in-black-neighborhoods/
+•	The frustration of shopping for woman's clothes are controversial. By being held too small to knitted pockets or being pleased with have pockets in a dress or pants. While men's pockets are so deep and spacious. The study presented a comparison of pockets between men and women by demonstrating an illustration by each scroll down with addition to facts, color, and size. There is a significant difference in size and brands for both genders.
+o	https://pudding.cool/2018/08/pockets/
+
+
 
 ### Slack, VScode, Rstudio, Git, and Github
 
-- [ ] Make sure you are in our Slack workspace.
-- [ ] Finish setting up VScode for programming in R and Python.
-- [ ] Finish setting up Rstudio.
-- [ ] Finish installing Git.
-- [ ] Finish creating your Github account and connecting to our organization.
+- [x] Make sure you are in our Slack workspace.
+- [x] Finish setting up VScode for programming in R and Python.
+- [x] Finish setting up Rstudio.
+- [x] Finish installing Git.
+- [x] Finish creating your Github account and connecting to our organization.
 
 ### R
 
-- [ ] Recreate the two graphics in this repo using `gapminder` dataset from `library(gapminder)` (get them to match as closely as you can).
-    - [ ] Use `library(tidyverse)` to load ggplot2 and dplyr and the `theme_bw()` to duplicate the first plot.
-    - [ ] Use `scale_y_continuous(trans = "sqrt")` to get the correct scale on the y-axis.
-    - [ ] Build weighted average data set using `weighted.mean()` and GDP with `summarise()` and `group_by()` that will be the black continent average line on the second plot.
-    - [ ] Use `theme_bw()` to duplicate the second plot. You will need to use the new data to make the black lines and dots showing the continent average.
-    - [ ] Use `ggsave()` and save each plot as a .png with a width of 15 inches.
+- [x] Recreate the two graphics in this repo using `gapminder` dataset from `library(gapminder)` (get them to match as closely as you can).
+    - [x] Use `library(tidyverse)` to load ggplot2 and dplyr and the `theme_bw()` to duplicate the first plot.
+    - [x] Use `scale_y_continuous(trans = "sqrt")` to get the correct scale on the y-axis.
+    - [x] Build weighted average data set using `weighted.mean()` and GDP with `summarise()` and `group_by()` that will be the black continent average line on the second plot.
+    - [x] Use `theme_bw()` to duplicate the second plot. You will need to use the new data to make the black lines and dots showing the continent average.
+    - [x] Use `ggsave()` and save each plot as a .png with a width of 15 inches.
 
 ### Python
 
-- [ ] Recreate the two graphics in this repo using the `gapminder` dataset from `library(gapminder)` (get them to match as closely as you can).
+- [x] Recreate the two graphics in this repo using the `gapminder` dataset from `library(gapminder)` (get them to match as closely as you can).
     - [ ] Export the data from R and import it into your Python environment. 
     - [ ] Use [plotnine](https://plotnine.readthedocs.io/en/stable/) or [Altair](https://altair-viz.github.io/index.html) to mimic the two graphics as close as possible.
     - [ ] Build a weighted average data set using GDP, the black continent average line on the second plot.
 
 
 ## Readings
+
+
 
 ### Visualization (being)
 
@@ -61,3 +70,4 @@
 
 - [Py4DS: Chapter 3 Data visualization](https://byuidatascience.github.io/python4ds/data-visualisation.html)
 - [Py4DS: Chapter 28 Graphics for communication](https://byuidatascience.github.io/python4ds/graphics-for-communication.html)
+
