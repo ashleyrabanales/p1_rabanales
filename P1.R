@@ -6,14 +6,16 @@
 #Use `theme_bw()` to duplicate the second plot. You will need to use the new data to make the black lines and dots showing the continent average.
 #Use `ggsave()` and save each plot as a .png with a width of 15 inches.
 
+
+#install.packages("tidyverse")
 library(gapminder)
   library(tidyverse)#load ggplot2 and dplyr
-  head (gapminder)
-  gap <- gapminder::gapminder 
+  head (gapminder) # nolint
+  gap <- gapminder::gapminder
 
   
 #1st graph 
-ggplot(gap, mapping = aes(x= lifeExp,
+ggplot(gap, mapping = aes(x= lifeExp, 
                           y = gdpPercap,
                           color = continent,
                           size = pop/10000,
@@ -21,10 +23,10 @@ ggplot(gap, mapping = aes(x= lifeExp,
     scale_y_continuous(trans = "sqrt") + 
     facet_wrap(~year, nrow = 1) +
     labs( x="Life Expectancy", y="GDP per capita") +
-    labs(size = "Population (100k)" , color = "Continent") +
+    labs(size + "Population (100k)", color = "Continent") +
     theme_bw()
 
-ggsave(filename = "p1_Rproject.png", width = 15, height = 7)
+ggsave(filename = "p1_Rproject.png", width = 8, height = 7)
   
   
 ########2nd graph##########

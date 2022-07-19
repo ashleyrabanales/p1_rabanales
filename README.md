@@ -19,6 +19,7 @@
 The frustration of shopping for woman's clothes are controversial. By being held too small to knitted pockets or being pleased with have pockets in a dress or pants. While men's pockets are so deep and spacious. The study presented a comparison of pockets between men and women by demonstrating an illustration by each scroll down with addition to facts, color, and size. There is a significant difference in size and brands for both genders.
 o	https://pudding.cool/2018/08/pockets/
 
+### R-Code Graphs
 
 
 ### Slack, VScode, Rstudio, Git, and Github
@@ -41,9 +42,9 @@ o	https://pudding.cool/2018/08/pockets/
 ### Python
 
 - [x] Recreate the two graphics in this repo using the `gapminder` dataset from `library(gapminder)` (get them to match as closely as you can).
-    - [ ] Export the data from R and import it into your Python environment. 
-    - [ ] Use [plotnine](https://plotnine.readthedocs.io/en/stable/) or [Altair](https://altair-viz.github.io/index.html) to mimic the two graphics as close as possible.
-    - [ ] Build a weighted average data set using GDP, the black continent average line on the second plot.
+    - [x] Export the data from R and import it into your Python environment. 
+    - [x] Use [plotnine](https://plotnine.readthedocs.io/en/stable/) or [Altair](https://altair-viz.github.io/index.html) to mimic the two graphics as close as possible.
+    - [] Build a weighted average data set using GDP, the black continent average line on the second plot.
 
 
 ## Readings
