@@ -12,7 +12,6 @@ library(gapminder)
   library(tidyverse)#load ggplot2 and dplyr
   head (gapminder) # nolint
   gap <- gapminder::gapminder
-
   
 #1st graph 
 ggplot(gap, mapping = aes(x= lifeExp, 
