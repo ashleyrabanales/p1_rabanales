@@ -17,6 +17,8 @@ git config --global user.name 'ashleyrabanales'
 library (tidyverse)
 
 # %%
+#/p1_rabanales/local/bin/python3 -m pip install --upgrade pip
+#%%
 import sys
 !{sys.executable} -m pip install radian
 # %%

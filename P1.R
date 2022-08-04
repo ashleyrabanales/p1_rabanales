@@ -13,16 +13,17 @@ library(gapminder)
   head (gapminder) # nolint
   gap <- gapminder::gapminder
   
+
 #1st graph 
 ggplot(gap, mapping = aes(x= lifeExp, 
                           y = gdpPercap,
                           color = continent,
-                          size = pop/10000,
+                          size = pop/10000
                           )) + geom_point() + 
     scale_y_continuous(trans = "sqrt") + 
     facet_wrap(~year, nrow = 1) +
     labs( x="Life Expectancy", y="GDP per capita") +
-    labs(size + "Population (100k)", color = "Continent") +
+    labs(size ="Population (100k)", color = "Continent") +
     theme_bw()
 
 ggsave(filename = "p1_Rproject.png", width = 8, height = 7)

@@ -91,5 +91,3 @@ p1.savefig('p1_python1.png')
    )
 #%%
 
-
-# %%
